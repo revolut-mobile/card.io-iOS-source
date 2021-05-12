@@ -5,6 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreVideo/CoreVideo.h>
+#include "opencv2/imgproc/imgproc_c.h"
 
 #define Y_PLANE 0
 #define CBCR_PLANE 1

@@ -3,6 +3,8 @@
 //  See the file "LICENSE.md" for the full license governing this code.
 //
 
+#include "opencv2/imgproc/imgproc_c.h"
+
 @interface CardIOGPURenderer : NSObject {
   // Handles
   GLuint _programHandle;

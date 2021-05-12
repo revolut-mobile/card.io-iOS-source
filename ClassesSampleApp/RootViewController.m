@@ -8,6 +8,7 @@
 #import "CardIO.h"
 #import "CardIOCGGeometry.h"
 #import "TestGeneratedModels.h"
+#import "CardIOMacros.h"
 
 #if CARDIO_DEBUG
 #import "CardIOLocalizer.h"
