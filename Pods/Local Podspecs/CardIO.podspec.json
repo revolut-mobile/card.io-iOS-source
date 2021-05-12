@@ -1,0 +1,75 @@
+{
+  "name": "CardIO",
+  "version": "1.0.0",
+  "summary": "Revolut - CardIO",
+  "description": "Revolut - CardIO",
+  "homepage": "https://bitbucket.org/revolut/revolut-ios",
+  "source": {
+    "git": "https://bitbucket.org/revolut/revolut-ios"
+  },
+  "license": {
+    "type": "Proprietary"
+  },
+  "authors": {
+    "Revolut": "team@revolut.com"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "CardIOCardholderNameTextFieldDelegate.{h,m}",
+    "Classes/**/*.{h,m,mm}",
+    "CardIO_Public_API/**/*.h",
+    "dmz/dmz_all.cpp",
+    "dmz/mz_ios.mm"
+  ],
+  "prefix_header_file": "SupportFiles/CardIO-Prefix.pch",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "${SRCROOT}/../dmz ${SRCROOT}/../dmz/cv ${SRCROOT}/../dmz/scan ${SRCROOT}/../dmz/models/generated ${SRCROOT}/../dmz/models/expiry",
+    "OTHER_CPLUSPLUSFLAGS": "$(OTHER_CFLAGS) -Wno-c++11-narrowing"
+  },
+  "public_header_files": "CardIO_Public_API/**/*.h",
+  "frameworks": [
+    "Accelerate",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreMedia",
+    "CoreVideo",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "Security",
+    "UIKit"
+  ],
+  "libraries": "c++",
+  "dependencies": {
+    "OpenCV": [
+      "~> 4.0"
+    ]
+  },
+  "appspecs": [
+    {
+      "name": "icc",
+      "frameworks": [
+        "Accelerate",
+        "AVFoundation",
+        "AudioToolbox",
+        "CoreMedia",
+        "MobileCoreServices"
+      ],
+      "pod_target_xcconfig": {
+        "INFOPLIST_FILE": "${PODS_TARGET_SRCROOT}/icc-Framework-Info.plist"
+      },
+      "source_files": [
+        "ClassesSampleApp/**/*.{m,swift}",
+        "dmz/models/TestGeneratedModels.h",
+        "dmz/models/TestGeneratedModels.mm"
+      ],
+      "resources": [
+        "Resources/**/*",
+        "ClassesSampleApp/**/*.xib"
+      ]
+    }
+  ]
+}

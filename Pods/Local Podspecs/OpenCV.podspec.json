@@ -1,0 +1,22 @@
+{
+  "name": "OpenCV",
+  "version": "4.0",
+  "summary": "Revolut - OpenCV",
+  "description": "Revolut - OpenCV",
+  "homepage": "https://bitbucket.org/revolut/revolut-ios",
+  "source": {
+    "git": "https://bitbucket.org/revolut/revolut-ios"
+  },
+  "license": {
+    "type": "Proprietary"
+  },
+  "authors": {
+    "Revolut": "team@revolut.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "Carthage/Build/opencv2.xcframework"
+  ]
+}

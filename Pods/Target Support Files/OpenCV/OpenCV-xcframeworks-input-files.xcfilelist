@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/OpenCV/OpenCV-xcframeworks.sh
+${PODS_ROOT}/../Carthage/Build/opencv2.xcframework
