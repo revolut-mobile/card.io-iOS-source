@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.homepage = 'https://www.revolut.com'
     spec.source = { :git =>'https://www.revolut.com' }
     spec.license = { :type => 'Proprietary' }
-    spec.author = { 'Revolut' => 'team@revolut.com' }
+    spec.author = { 'Revolut' => 'none@none.com' }
     spec.static_framework = true
 
     spec.ios.deployment_target = '10.0'
