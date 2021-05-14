@@ -3,9 +3,9 @@
   "version": "4.0",
   "summary": "Revolut - OpenCV",
   "description": "Revolut - OpenCV",
-  "homepage": "https://bitbucket.org/revolut/revolut-ios",
+  "homepage": "https://www.revolut.com",
   "source": {
-    "git": "https://bitbucket.org/revolut/revolut-ios"
+    "git": "https://www.revolut.com"
   },
   "license": {
     "type": "Proprietary"

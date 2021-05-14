@@ -3,8 +3,8 @@ Pod::Spec.new do |spec|
     spec.version = '1.0.0'
     spec.summary = 'Revolut - CardIO'
     spec.description = 'Revolut - CardIO'
-    spec.homepage = 'https://bitbucket.org/revolut/revolut-ios'
-    spec.source = { :git =>'https://bitbucket.org/revolut/revolut-ios' }
+    spec.homepage = 'https://www.revolut.com'
+    spec.source = { :git =>'https://www.revolut.com' }
     spec.license = { :type => 'Proprietary' }
     spec.author = { 'Revolut' => 'team@revolut.com' }
     spec.static_framework = true
