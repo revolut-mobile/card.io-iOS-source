@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA6EEFF6EE3033DEBA697A8 /* Pods_Dummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F344761B8EEC1AADB3E479CF /* Pods_Dummy.framework */; };
+		C9E044DAEB6C7F62F0FFA86D /* Pods_Dummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD3EA67F91D0789F7D36515 /* Pods_Dummy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AF384D3F61C020442398E70 /* Dummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B272D63287659DF5649631A /* Pods-Dummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummy.debug.xcconfig"; path = "Target Support Files/Pods-Dummy/Pods-Dummy.debug.xcconfig"; sourceTree = "<group>"; };
-		DB6C7BC210D448A526AC7175 /* Pods-Dummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummy.release.xcconfig"; path = "Target Support Files/Pods-Dummy/Pods-Dummy.release.xcconfig"; sourceTree = "<group>"; };
-		F344761B8EEC1AADB3E479CF /* Pods_Dummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3245E16E3CF95FD0E30C0E /* Pods-Dummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummy.release.xcconfig"; path = "Target Support Files/Pods-Dummy/Pods-Dummy.release.xcconfig"; sourceTree = "<group>"; };
+		7BD3EA67F91D0789F7D36515 /* Pods_Dummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6744DC329AEBCEE993EC00C /* Pods-Dummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummy.debug.xcconfig"; path = "Target Support Files/Pods-Dummy/Pods-Dummy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64F6F0F9A0BCB16A96C8D113 /* Frameworks */ = {
+		EE8015CBC20C969F2E09C729 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA6EEFF6EE3033DEBA697A8 /* Pods_Dummy.framework in Frameworks */,
+				C9E044DAEB6C7F62F0FFA86D /* Pods_Dummy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12023EAD86F3F79142637F40 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B272D63287659DF5649631A /* Pods-Dummy.debug.xcconfig */,
-				DB6C7BC210D448A526AC7175 /* Pods-Dummy.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		1B40E9868AF0882CFA68988C = {
 			isa = PBXGroup;
 			children = (
 				63E66F4141E92C3B5DF6677E /* Products */,
-				12023EAD86F3F79142637F40 /* Pods */,
-				273FA400CFFEDA6625FA907B /* Frameworks */,
+				4B2F5604B1984E615F07DDD5 /* Pods */,
+				48BEBF1BAB466FA9CE018C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		273FA400CFFEDA6625FA907B /* Frameworks */ = {
+		48BEBF1BAB466FA9CE018C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F344761B8EEC1AADB3E479CF /* Pods_Dummy.framework */,
+				7BD3EA67F91D0789F7D36515 /* Pods_Dummy.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B2F5604B1984E615F07DDD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6744DC329AEBCEE993EC00C /* Pods-Dummy.debug.xcconfig */,
+				4D3245E16E3CF95FD0E30C0E /* Pods-Dummy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		63E66F4141E92C3B5DF6677E /* Products */ = {
@@ -71,9 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375841A1E3B77B073DA956E7 /* Build configuration list for PBXNativeTarget "Dummy" */;
 			buildPhases = (
-				C707B2508019C407FEF61F3B /* [CP] Check Pods Manifest.lock */,
+				ADD17A82F1374648B1BD4A76 /* [CP] Check Pods Manifest.lock */,
 				0935E0A3D61CD6AD26B89E74 /* Sources */,
-				64F6F0F9A0BCB16A96C8D113 /* Frameworks */,
+				EE8015CBC20C969F2E09C729 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,7 +113,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C707B2508019C407FEF61F3B /* [CP] Check Pods Manifest.lock */ = {
+		ADD17A82F1374648B1BD4A76 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,7 +212,7 @@
 		};
 		620E78090596529829640C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B272D63287659DF5649631A /* Pods-Dummy.debug.xcconfig */;
+			baseConfigurationReference = F6744DC329AEBCEE993EC00C /* Pods-Dummy.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -226,7 +226,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.revolut.Dummy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumberlabs.Dummy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -236,7 +236,7 @@
 		};
 		6A68D1D3BD1F4D29166A86BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB6C7BC210D448A526AC7175 /* Pods-Dummy.release.xcconfig */;
+			baseConfigurationReference = 4D3245E16E3CF95FD0E30C0E /* Pods-Dummy.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -250,7 +250,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.revolut.Dummy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumberlabs.Dummy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

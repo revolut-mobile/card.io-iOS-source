@@ -1,7 +1,7 @@
 name: CardIO
 
 options:
-  bundleIdPrefix: com.revolut
+  bundleIdPrefix: com.lumberlabs
   minimumXcodeGenVersion: 2.18.0
 
 targets:
