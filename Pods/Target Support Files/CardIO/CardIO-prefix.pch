@@ -1,3 +1,15 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
 //
 // Prefix header for all source files of the 'CardIO' target in the 'CardIO' project
 //  See the file "LICENSE.md" for the full license governing this code.

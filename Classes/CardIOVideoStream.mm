@@ -5,6 +5,7 @@
 
 #if USE_CAMERA || SIMULATE_CAMERA
 
+#import "dmz.h"
 #import "CardIOVideoStream.h"
 #import "CardIODevice.h"
 #import "CardIOVideoFrame.h"

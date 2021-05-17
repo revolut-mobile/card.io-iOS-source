@@ -1,0 +1,25 @@
+PODS:
+  - CardIO (1.0.0):
+    - OpenCV (~> 4.0)
+  - CardIO/icc (1.0.0):
+    - OpenCV (~> 4.0)
+  - OpenCV (4.0)
+
+DEPENDENCIES:
+  - CardIO (from `.`)
+  - CardIO/icc (from `.`)
+  - OpenCV (from `.`)
+
+EXTERNAL SOURCES:
+  CardIO:
+    :path: "."
+  OpenCV:
+    :path: "."
+
+SPEC CHECKSUMS:
+  CardIO: 72ae28c1fc320188ec1265e33a21e5f6c12ed0cf
+  OpenCV: def10bbae97224f86d80468e278281914ff9e6e3
+
+PODFILE CHECKSUM: 9118d36df27c2c242ee671c8d20dd18a414bca3c
+
+COCOAPODS: 1.10.1
